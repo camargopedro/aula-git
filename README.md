@@ -78,4 +78,18 @@ git merge novaBranch > juntar o novo codigo na branch master estável
 git push > enviar para a nuvem
 
 PULL REQUEST
+quando algum programador deve autorizar sua alteração de codigo
+pelo próprio github voce faz a solicitação e escreve um comentário
+
+Git ignore
+quando acontece de você não querer mandar para a nuvem alguns arquivos ou pastas
+
+touch .gitignore > cria um arquivo .txt 
+nesse arquivo você escreve os arquivos ou pastas que vc não quer que sejam 
+adicionados ao controle de versão
+escreva no arquivo de texto o nome Diretorio/ ou o nome de um arquivo e salva.
+pronto, agora o git irá ignorar essa pasta ou arquivo.
+depois adiciona esse gitignore no projeto
+
+
 
